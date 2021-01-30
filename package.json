@@ -1,18 +1,16 @@
 {
   "name": "feather-icons-svelte-kit",
   "description": "Feather icons for Svelte-Kit (Completely based on svelte-feather-icons by dylanblokhuis)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "acoyfellow <jordan@sendgroth.com>",
   "repository": {
     "url": "acoyfellow/feather-icons-svelte-kit",
     "type": "git"
   },
   "svelte": "src/index.js",
-  "module": "index.mjs",
-  "main": "index.js",
+  "main": "src/index.js",
   "files": [
     "src",
-    "index.mjs",
     "index.js"
   ],
   "license": "MIT",
