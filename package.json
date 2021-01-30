@@ -1,7 +1,7 @@
 {
   "name": "feather-icons-svelte-kit",
   "description": "Feather icons for Svelte-Kit (Completely based on svelte-feather-icons by dylanblokhuis)",
-  "version": "1.0.23",
+  "version": "1.0.29",
   "author": "acoyfellow <jordan@sendgroth.com>",
   "repository": {
     "url": "acoyfellow/feather-icons-svelte-kit",
