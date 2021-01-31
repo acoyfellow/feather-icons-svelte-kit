@@ -31,8 +31,7 @@ async function build() {
   await fs.mkdir(iconPath)
   const { exportList, writeFunctions } = [...new Set(iconList)].reduce((out, icon) => {
     const name = pascal(`${handleComponentName(icon)}-icon`)
-    // out.exportList.push(`export { default as ${name} } from './icons/${name}.svelte'`)
-    out.exportList.push(`import ${name} from './icons/${name}.svelte'; export { ${name} as ${name} };`);
+    out.exportList.push(`export { default as ${name} } from './icons/${name}.svelte'`)
     out.writeFunctions.push(fs.writeFile(join(iconPath, `${name}.svelte`), component(icon), { encoding: 'utf8' }))
     return out
   }, { exportList: [], writeFunctions: [] })
